@@ -54,6 +54,11 @@ final List<Map<String, dynamic>> contactos = [
     'telefono': '+504 3325-1499',
     'correo': 'michel@example.com',
   },
+  {
+    'nombre': 'Juan Perez',
+    'telefono': '+504 9858-2625',
+    'correo': 'juan@example.com',
+  },
 ];
 final List acciones = [
   "Enviar Mensaje a ",

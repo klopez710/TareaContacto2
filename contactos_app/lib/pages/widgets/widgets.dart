@@ -27,7 +27,7 @@ class Widgets {
             ),
           ),
         ),
-        ContactsList()
+        const ContactsList()
       ],
     );
   }

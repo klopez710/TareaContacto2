@@ -1,8 +1,9 @@
-import 'package:contactos_app/main.dart';
 import 'package:flutter/material.dart';
 
-class ExtractArgumentsScreen extends StatelessWidget {
-  const ExtractArgumentsScreen({super.key});
+class Detalle extends StatelessWidget {
+  const Detalle({
+    super.key,
+  });
 
   static const routeName = '/extractArguments';
 
@@ -28,4 +29,13 @@ class ExtractArgumentsScreen extends StatelessWidget {
       ),
     );
   }
+}
+
+class ScreenArguments {
+  final CircleAvatar avatar;
+  final Title nombre;
+  final Container acciones;
+  final Card infoContacto;
+
+  ScreenArguments(this.avatar, this.nombre, this.acciones, this.infoContacto);
 }
